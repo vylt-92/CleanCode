@@ -424,7 +424,6 @@ FodyWeavers.xsd
 dist/
 
 # Application data files
-todos.json
 **/data/
 TestResults/
 

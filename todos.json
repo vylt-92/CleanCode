@@ -1,0 +1,41 @@
+{
+  "todos": [
+    {
+      "id": "06ece772-022c-4865-9fd3-01bd4ae3bb4f",
+      "text": "Test deployment package",
+      "isCompleted": false,
+      "createdAt": "2025-11-10T00:20:25.709Z"
+    },
+    {
+      "id": "269ee013-9f3f-40e5-8727-7c585e495a82",
+      "text": "F# program",
+      "isCompleted": true,
+      "createdAt": "2025-11-09T20:24:50.146Z"
+    },
+    {
+      "id": "75a3b0e5-4977-4770-b7c5-cd548fcefadc",
+      "text": "Finish Phase 4 implementation",
+      "isCompleted": false,
+      "createdAt": "2025-11-10T21:05:05.361Z"
+    },
+    {
+      "id": "8696d363-1ab6-44ef-a025-8422d721a8ca",
+      "text": "Buy groceries",
+      "isCompleted": true,
+      "createdAt": "2025-11-12T21:58:20.510Z"
+    },
+    {
+      "id": "941f13f8-3252-4037-b50e-30fec65dafc8",
+      "text": "Learn dependency injection",
+      "isCompleted": false,
+      "createdAt": "2025-11-12T07:58:28.126Z"
+    },
+    {
+      "id": "d46a8578-d3cd-417a-b5b8-c5210546f091",
+      "text": "Complete Phase 4 implementation",
+      "isCompleted": true,
+      "createdAt": "2025-11-11T11:01:01.898Z"
+    }
+  ],
+  "lastModified": "2025-11-09T13:25:03.928Z"
+}
