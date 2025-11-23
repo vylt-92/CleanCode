@@ -418,9 +418,9 @@ FodyWeavers.xsd
 *.msp
 
 # Project specific ignores
-./specs
-.github
-.specify
+specs/
+.github/
+.specify/
 dist/
 
 # Application data files
@@ -455,3 +455,5 @@ TestResults/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+.specs
