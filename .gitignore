@@ -416,3 +416,43 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Project specific ignores
+./specs
+.github
+.specify
+dist/
+
+# Application data files
+todos.json
+**/data/
+TestResults/
+
+# IDE and editor files
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
