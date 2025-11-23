@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <GenerateProgramFile>false</GenerateProgramFile>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Domain\TodoTests.fs" />
+    <Compile Include="Domain\TodoListTests.fs" />
+    <Compile Include="Domain\ErrorHandlingTests.fs" />
+    <Compile Include="Domain\PropertyBasedTests.fs" />
+    <Compile Include="Infrastructure\StorageTests.fs" />
+    <Compile Include="Integration\CliTests.fs" />
+    <Compile Include="Integration\CliStorageIntegrationTests.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="FsCheck" Version="2.16.5" />
+    <PackageReference Include="FsUnit" Version="5.6.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanCodeTodoApp\CleanCodeTodoApp.fsproj" />
+  </ItemGroup>
+
+</Project>
